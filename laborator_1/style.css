@@ -1,0 +1,28 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.list ul {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.visited-site {
+    font-size: 20px;
+}
+
+.visited-site a {
+    text-decoration: none;
+    background-color: lightpink;
+    color: black;
+}
+
+.visited-site a:hover {
+    background-color: lightblue;
+}
