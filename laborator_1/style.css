@@ -57,9 +57,18 @@ h1.center {
     margin: 8px 0 0 20px
 }
 
+.list p {
+    margin: 0;
+}
+
 .visited-site {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.visited-site p {
+    display: inline-block;
+    margin: inherit;
 }
 
 .visited-site a {
