@@ -7,6 +7,32 @@ html, body {
     margin: 0;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: #ffffffcc;
+    border-bottom: 1px solid #e8eaf1;
+}
+
+.brand {
+    display: inline;
+    left: 0;
+    right: 0;
+}
+
+.site-nav {
+    display: inline;
+}
+
 h1.center {
     font-size: 40px;
     font-weight: 800;

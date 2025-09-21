@@ -1,3 +1,5 @@
+<!-- TODO Add header, navbar, main and footer to the site -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,26 +10,38 @@
     </head>
 
     <body>
-        <div class="center">
-            <h1 class="center">Jovmir Bogdan</h1>
-            <div><img src="img/avatar.jpeg" alt="3 dots (my beloved avatar)" width="200px"></div>
-            <p class="paragraph">
-                Hi and Welcome to my website! Here you can find a lot of stuff 'bout me, what I like,
-                what I eat and more O_O
-            </p>
+        <header class="site-header">
+            <div class="container">
+                <a class="brand" href="#">JB</a>
+                <nav class="site-nav" aria-label="Primary">
+                    <a href="#about">About</a>
+                    <a href="#likes">Likes</a>
+                    <a href="#links">Links</a>
+                </nav>
+            </div>
+        </header>
 
-        <div class="list">
-            <p>Here's a list of what I like:</p>
-            <ul>
-                <li>I like to sleep</li>
-                <li>I like to eat fruits (and everything else too)</li>
-                <li>I like to stay at home and learn something new on the internet</li>
-            </ul>
-        </div>
+        <main>
+            <div class="center">
+                <div><img src="img/avatar.jpeg" alt="3 dots (my beloved avatar)" width="200px"></div>
+                <p class="paragraph">
+                    Hi and Welcome to my website! Here you can find a lot of stuff 'bout me, what I like,
+                    what I eat and more O_O
+                </p>
 
-        <div class="visited-site">
-            <p>Here's the site I visit the most (for the last 2 weeks now :c):</p>
-            <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>
-        </div>
+            <div class="list">
+                <p>Here's a list of what I like:</p>
+                <ul>
+                    <li>I like to sleep</li>
+                    <li>I like to eat fruits (and everything else too)</li>
+                    <li>I like to stay at home and learn something new on the internet</li>
+                </ul>
+            </div>
+
+            <div class="visited-site">
+                <p>Here's the site I visit the most (for the last 2 weeks now :c):</p>
+                <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>
+            </div>
+        </main>
     </body>
 </html>
