@@ -34,7 +34,7 @@ html, body {
     font-size: 20px;
 }
 
-.site-nav a{
+.site-nav a {
     color: #5c6470;
     text-decoration: none;
     margin-left: 16px;
@@ -100,7 +100,7 @@ h1.center {
 }
 
 .visited-site {
-    margin-top: 20px;
+    margin: 24px 16px 48px 16px;
     font-size: 18px;
 }
 
@@ -129,3 +129,10 @@ h1.center {
     transform: translateY(0);
     box-shadow: 0 2px 8px rgba(108, 140, 255, 0.25);
 } */
+
+.site-footer {
+    border-top: 1px solid #e8eaf1;
+    padding: 16px 0;
+    color: #5c6470;
+    text-align: center;
+}
