@@ -14,24 +14,36 @@ html, body {
 }
 
 .site-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     position: sticky;
     top: 0;
     background-color: #ffffffcc;
     border-bottom: 1px solid #e8eaf1;
 }
 
-.brand {
-    display: inline;
-    left: 0;
-    right: 0;
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
 }
 
-.site-nav {
-    display: inline;
+.brand {
+    color: #1f2330;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 20px;
 }
+
+.site-nav a{
+    color: #5c6470;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.site-nav a:hover {
+    color: #1f2330;
+}
+
 
 h1.center {
     font-size: 40px;
