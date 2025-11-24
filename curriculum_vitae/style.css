@@ -177,6 +177,7 @@ footer {
 .footer-links {
     margin: 0;
     padding: 0;
+    justify-self: center;
 }
 
 .footer-links li {
